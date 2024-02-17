@@ -1,0 +1,20 @@
+https://habr.com/ru/articles/309504/
+
+
+Установка:
+
+1.Скачать JDK
+2.Установить command line tools
+3.
+
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_73
+set ANDROID_HOME=C:\Users\kciray\AppData\Local\Android\android-sdk
+set DEV_HOME=%CD%
+
+set JACK_JAR="%ANDROID_HOME%\build-tools\24.0.2\jack.jar"
+set AAPT_PATH="%ANDROID_HOME%\build-tools\24.0.2\aapt.exe"
+set ANDROID_JAR="%ANDROID_HOME%\platforms\android-24\android.jar"
+set ADB="%ANDROID_HOME%\platform-tools\adb.exe"
+set JAVAVM="%JAVA_HOME%\bin\java.exe"
+
+
